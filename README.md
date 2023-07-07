@@ -1,3 +1,6 @@
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+
 # Dimensionality reudction of fraud detection data using Pyspark
 
 The data of this work can be found in the following [link](https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection).
