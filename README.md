@@ -10,7 +10,7 @@ The data of this work can be found in the following [link](https://www.kaggle.co
 from pyspark.ml.feature import PCA, StringIndexer, VectorAssembler
 from pyspark.sql import SparkSession
 ```
-
+----
 
 ```python
 # starting Spark session
