@@ -62,7 +62,7 @@ num_cols_df = print(len(df.columns))
     
     33
 
-
+--
 
 ```python
 # see the contents of data for 10 columns
@@ -86,7 +86,7 @@ df.show(10)
     +-----+-----------+---------+------+------------+----------------+------------+------------------+------+-------------+---+-------------+--------------------+---------------+---------------+------------+------------+---------+----------+------------+--------------------+-----------------+------------------+------------+-----------------+-----------------+--------------+---------+-------------------+-------------------+------------+----+----------+
     only showing top 10 rows
     
-
+----
 
 
 ```python
@@ -99,7 +99,7 @@ print(len(feature_cols))
     ['WeekOfMonth', 'DayOfWeek', 'Make', 'AccidentArea', 'DayOfWeekClaimed', 'MonthClaimed', 'WeekOfMonthClaimed', 'Sex', 'MaritalStatus', 'Age', 'Fault', 'PolicyType', 'VehicleCategory', 'VehiclePrice', 'FraudFound_P', 'PolicyNumber', 'RepNumber', 'Deductible', 'DriverRating', 'Days_Policy_Accident', 'Days_Policy_Claim', 'PastNumberOfClaims', 'AgeOfVehicle', 'AgeOfPolicyHolder', 'PoliceReportFiled', 'WitnessPresent', 'AgentType', 'NumberOfSuppliments', 'AddressChange_Claim', 'NumberOfCars', 'Year', 'BasePolicy']
     32
 
-
+-----
 
 ```python
 # Increas of columns is expected due to conversion from string to numeric values in the columns
@@ -121,7 +121,7 @@ num_cols_df = print(len(df_with_features.columns))
 
     66
 
-
+------
 
 ```python
 # Apply PCA for dimensionality reduction
